@@ -2,6 +2,6 @@
 import { Injectable } from '@nestjs/common';
 
 @Injectable()
-export class SocialLoginService {
+export class GoogleLoginService {
   // Optional: Save user to DB, generate JWT, etc.
 }

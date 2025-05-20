@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { PassportModule } from '@nestjs/passport';
 import { ConfigModule } from '@nestjs/config';
-import { GoogleLoginService } from './google-login.service' ;
+import { GoogleLoginService } from './google-login.service';
 import { SocialLoginController } from './google-login.controller'; 
 import { GoogleStrategy } from './google.strategy'; 
 
